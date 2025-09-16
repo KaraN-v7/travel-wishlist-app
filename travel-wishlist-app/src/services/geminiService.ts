@@ -5,7 +5,7 @@ import type { GeminiGeneratedData } from '../types';
 let ai: GoogleGenAI | null = null;
 const getAiClient = () => {
     if (!ai) {
-        // Access the API key using Vite's import.meta.env object
+        // Access the API key using ONLY Vite's import.meta.env object
         const apiKey = import.meta.env.VITE_API_KEY;
         if (!apiKey) {
             // This error will now only be thrown when a user tries to save a new place, not on page load.
