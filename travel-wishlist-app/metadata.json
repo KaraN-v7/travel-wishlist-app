@@ -1,0 +1,5 @@
+{
+  "name": "Travel Wishlist AI",
+  "description": "An intelligent web application to save and organize travel destinations. Type in a place, upload a photo, and let AI categorize it by country, provide a description, and display its flag.",
+  "requestFramePermissions": []
+}
